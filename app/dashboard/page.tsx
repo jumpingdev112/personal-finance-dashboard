@@ -1,7 +1,7 @@
-import { OverviewCards } from "@/components/overview-cards"
-import { MonthlyChart } from "@/components/monthly-chart"
-import { ExpenseBreakdown } from "@/components/expense-breakdown"
-import { RecentTransactions } from "@/components/recent-transactions"
+import { OverviewCards } from "@/components/dashboard/overview-cards"
+import { MonthlyChart } from "@/components/dashboard/monthly-chart"
+import { ExpenseBreakdown } from "@/components/dashboard/expense-breakdown"
+import { RecentTransactions } from "@/components/dashboard/recent-transactions"
 
 export default function DashboardPage() {
   return (

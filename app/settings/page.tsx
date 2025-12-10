@@ -1,7 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ProfileForm } from "@/components/profile-form"
-import { NotificationSettings } from "@/components/notification-settings"
-import { SecuritySettings } from "@/components/security-settings"
+import { ProfileForm } from "@/components/settings/profile-form"
+import { NotificationSettings } from "@/components/settings/notification-settings"
+import { SecuritySettings } from "@/components/settings/security-settings"
 
 export default function SettingsPage() {
   return (

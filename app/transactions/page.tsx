@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
-import { TransactionFilters } from "@/components/transaction-filters"
-import { TransactionTable } from "@/components/transaction-table"
+import { TransactionFilters } from "@/components/transactions/transaction-filters"
+import { TransactionTable } from "@/components/transactions/transaction-table"
 import { Plus } from "lucide-react"
 
 export default function TransactionsPage() {

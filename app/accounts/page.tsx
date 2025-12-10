@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { AccountCard } from "@/components/account-card"
+import { AccountCard } from "@/components/accounts/account-card"
 import { Plus } from "lucide-react"
 
 export default function AccountsPage() {
