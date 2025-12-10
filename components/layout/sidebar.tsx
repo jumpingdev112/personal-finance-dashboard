@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Settings, LogOut } from "lucide-react"
+import { Settings, LogOut, Wallet } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { NAV_ITEMS } from "@/lib/constants"
 

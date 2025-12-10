@@ -113,19 +113,41 @@ personal-finance-dashboard/
 │   ├── transactions/        # Transactions page
 │   ├── layout.tsx           # Root layout
 │   └── page.tsx             # Home page (redirects to dashboard)
-├── components/              # React components
+├── components/              # React components (organized by feature)
 │   ├── ui/                 # Reusable UI components (shadcn/ui)
-│   ├── account-card.tsx    # Account card component
-│   ├── budget-card.tsx     # Budget card component
-│   ├── category-card.tsx   # Category card component
-│   ├── goal-card.tsx       # Goal card component
-│   ├── overview-cards.tsx  # Dashboard overview cards
-│   ├── monthly-chart.tsx   # Monthly spending chart
-│   ├── expense-breakdown.tsx # Expense breakdown component
-│   ├── recent-transactions.tsx # Recent transactions component
-│   ├── sidebar.tsx         # Navigation sidebar
-│   ├── top-nav.tsx         # Top navigation bar
-│   └── theme-provider.tsx  # Theme provider for dark/light mode
+│   ├── layout/             # Layout components
+│   │   ├── sidebar.tsx     # Navigation sidebar
+│   │   ├── top-nav.tsx     # Top navigation bar
+│   │   ├── theme-provider.tsx # Theme provider for dark/light mode
+│   │   └── index.ts        # Layout component exports
+│   ├── dashboard/          # Dashboard-specific components
+│   │   ├── overview-cards.tsx # Overview statistics cards
+│   │   ├── monthly-chart.tsx # Monthly spending chart
+│   │   ├── expense-breakdown.tsx # Expense breakdown pie chart
+│   │   ├── recent-transactions.tsx # Recent transactions list
+│   │   ├── stats-grid.tsx  # Statistics grid
+│   │   ├── spending-trend.tsx # Spending trend line chart
+│   │   ├── category-comparison.tsx # Category comparison chart
+│   │   └── index.ts        # Dashboard component exports
+│   ├── accounts/           # Account management components
+│   │   ├── account-card.tsx # Account card component
+│   │   └── index.ts        # Account component exports
+│   ├── budgets/            # Budget management components
+│   │   ├── budget-card.tsx # Budget card component
+│   │   ├── goal-card.tsx   # Financial goal card component
+│   │   └── index.ts        # Budget component exports
+│   ├── categories/         # Category management components
+│   │   ├── category-card.tsx # Category card component
+│   │   └── index.ts        # Category component exports
+│   ├── transactions/       # Transaction management components
+│   │   ├── transaction-filters.tsx # Transaction filtering UI
+│   │   ├── transaction-table.tsx # Transaction table component
+│   │   └── index.ts        # Transaction component exports
+│   └── settings/           # Settings page components
+│       ├── profile-form.tsx # User profile form
+│       ├── notification-settings.tsx # Notification preferences
+│       ├── security-settings.tsx # Security settings
+│       └── index.ts        # Settings component exports
 ├── lib/                    # Utility functions and types
 │   ├── types.ts            # TypeScript type definitions
 │   ├── constants.ts        # Application constants

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { CategoryCard } from "@/components/category-card"
+import { CategoryCard } from "@/components/categories/category-card"
 import { Plus, ShoppingCart, Zap, Car, Film, Utensils, Home, Heart } from "lucide-react"
 
 export default function CategoriesPage() {

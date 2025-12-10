@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
-import { BudgetCard } from "@/components/budget-card"
-import { GoalCard } from "@/components/goal-card"
+import { BudgetCard } from "@/components/budgets/budget-card"
+import { GoalCard } from "@/components/budgets/goal-card"
 import { Plus } from "lucide-react"
 import { Zap, Home, Plane } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
